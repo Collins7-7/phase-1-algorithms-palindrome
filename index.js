@@ -1,7 +1,9 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
-
+    const reversedStr = word.toLowerCase().split("").reverse().join("");
+    if (reversedStr === word) return true;
+    return false;
+  }
 /* 
   Add your pseudocode here
 */
